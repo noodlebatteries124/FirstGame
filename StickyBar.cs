@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class StickyBar : MonoBehaviour
 {
-    public Transform player;
+    public Transform Alice;
 
     private void Update()
     {
-        transform.position = player.position;
+        transform.position = Alice.position;
     }
 }

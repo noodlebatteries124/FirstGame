@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268ac1ad8f1c1e1468fb8b4533139676, type: 3}
+  m_Name: MiniMsc
+  m_EditorClassIdentifier: 
+  currentHealth: -88
+  maxHealth: 12
+  moveSpeed: 3.5
+  damage: 10
+  dotAmount: 0
+  tickSpeed: 0
+  dotDuration: 0
+  damageCooldown: 0.5
+  lastDamageTime: 0
+  moveDirection: {x: -0.99999917, y: -0.0013036039}
+  spriteRenderer: {fileID: 3626916397498700004, guid: 00511a224a1a59148ad4e62f6a25ddf9, type: 3}
